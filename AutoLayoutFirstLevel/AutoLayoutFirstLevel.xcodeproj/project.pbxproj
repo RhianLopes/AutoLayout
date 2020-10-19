@@ -61,6 +61,16 @@
 		F1EF5A97253E4BE100E0280A /* AutoLayoutFirstLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutFirstLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EF5A9B253E4BE100E0280A /* AutoLayoutFirstLevelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutFirstLevelUITests.swift; sourceTree = "<group>"; };
 		F1EF5A9D253E4BE100E0280A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EF5AAB253E5CBA00E0280A /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F1EF5AAC253E5CBA00E0280A /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F1EF5AAD253E5CBA00E0280A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F1EF5AAE253E5CBB00E0280A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F1EF5AAF253E5CBB00E0280A /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F1EF5AB0253E5CBB00E0280A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F1EF5AB1253E5CBB00E0280A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F1EF5AB2253E5CBB00E0280A /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1EF5AB3253E5CBB00E0280A /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F1EF5AB4253E5CBB00E0280A /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +111,6 @@
 				6648D7923B7F47E8DFEB4CD8 /* Pods-AutoLayoutFirstLevelTests.debug.xcconfig */,
 				628AEDAFE33354E10366302E /* Pods-AutoLayoutFirstLevelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +149,7 @@
 		F1EF5A78253E4BDF00E0280A /* AutoLayoutFirstLevel */ = {
 			isa = PBXGroup;
 			children = (
+				F1EF5AA9253E5C7800E0280A /* Recursos */,
 				F1EF5A79253E4BDF00E0280A /* AppDelegate.swift */,
 				F1EF5A7B253E4BDF00E0280A /* SceneDelegate.swift */,
 				F1EF5A7D253E4BDF00E0280A /* ViewController.swift */,
@@ -167,6 +177,31 @@
 				F1EF5A9D253E4BE100E0280A /* Info.plist */,
 			);
 			path = AutoLayoutFirstLevelUITests;
+			sourceTree = "<group>";
+		};
+		F1EF5AA9253E5C7800E0280A /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF5AAA253E5CA600E0280A /* Fontes */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		F1EF5AAA253E5CA600E0280A /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF5AAE253E5CBB00E0280A /* OpenSans-Bold.ttf */,
+				F1EF5AB3253E5CBB00E0280A /* OpenSans-BoldItalic.ttf */,
+				F1EF5AAB253E5CBA00E0280A /* OpenSans-ExtraBold.ttf */,
+				F1EF5AB4253E5CBB00E0280A /* OpenSans-ExtraBoldItalic.ttf */,
+				F1EF5AB0253E5CBB00E0280A /* OpenSans-Italic.ttf */,
+				F1EF5AAD253E5CBA00E0280A /* OpenSans-Light.ttf */,
+				F1EF5AAF253E5CBB00E0280A /* OpenSans-LightItalic.ttf */,
+				F1EF5AB1253E5CBB00E0280A /* OpenSans-Regular.ttf */,
+				F1EF5AB2253E5CBB00E0280A /* OpenSans-SemiBold.ttf */,
+				F1EF5AAC253E5CBA00E0280A /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fontes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
