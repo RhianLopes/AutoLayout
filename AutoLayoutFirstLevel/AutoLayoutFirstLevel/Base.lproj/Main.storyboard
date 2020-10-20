@@ -62,7 +62,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="85" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2a-UF-Os2">
-                                <rect key="frame" x="26" y="398.66666666666669" width="362" height="208.66666666666669"/>
+                                <rect key="frame" x="26" y="398.66666666666669" width="362" height="209.00000000000006"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5r8-wK-scX">
                                         <rect key="frame" x="0.0" y="0.0" width="362" height="60"/>
@@ -82,7 +82,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbG-iO-YBy">
-                                        <rect key="frame" x="0.0" y="121.33333333333331" width="362" height="87.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="121.66666666666669" width="362" height="87.333333333333314"/>
                                         <string key="text">Light, flakey, yet oh-so indulgent, each Croissant features our 100 percent butter croissant dough wrapped around two chocolate batons — because one is simply not enough.</string>
                                         <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="16"/>
                                         <color key="textColor" name="CinzaClaro"/>
@@ -94,6 +94,20 @@
                                     <constraint firstItem="5r8-wK-scX" firstAttribute="top" secondItem="U2a-UF-Os2" secondAttribute="top" id="SXI-Dj-Ing"/>
                                 </constraints>
                             </stackView>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Quantity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KXz-OO-Oty">
+                                <rect key="frame" x="26" y="640" width="182" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Size" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rmd-QD-bt2">
+                                <rect key="frame" x="206" y="640" width="182" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -108,10 +122,14 @@
                             <constraint firstItem="K5H-gy-fNq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" multiplier="1/2" id="vbd-Wr-j2n"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="quantityField" destination="KXz-OO-Oty" id="hZ8-y6-s7c"/>
+                        <outlet property="sizeField" destination="rmd-QD-bt2" id="iv5-V8-BqF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.19999999999999" y="121.18226600985223"/>
+            <point key="canvasLocation" x="134.78260869565219" y="120.53571428571428"/>
         </scene>
     </scenes>
     <resources>
