@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -10,8 +10,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </array>
         <array key="OpenSans-Regular.ttf">
             <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
         </array>
     </customFonts>
     <scenes>
@@ -20,20 +26,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutFirstLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Croissant" translatesAutoresizingMaskIntoConstraints="NO" id="K5H-gy-fNq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="415"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="415"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="415" id="9e8-P0-60y"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="0y9-Vy-LTs">
-                                <rect key="frame" x="19.5" y="44" width="336" height="30"/>
+                                <rect key="frame" x="39" y="88" width="336.33333333333331" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8D-AY-Nxf">
-                                        <rect key="frame" x="0.0" y="0.0" width="27" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="27.333333333333332" height="30"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal">
                                             <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
@@ -41,12 +47,12 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Croissant" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fW7-wK-RoH">
-                                        <rect key="frame" x="117" y="0.0" width="96.5" height="30"/>
+                                        <rect key="frame" x="117.33333333333334" y="0.0" width="96.333333333333343" height="30"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yl7-Y2-fSv">
-                                        <rect key="frame" x="303.5" y="0.0" width="32.5" height="30"/>
+                                        <rect key="frame" x="303.66666666666669" y="0.0" width="32.666666666666686" height="30"/>
                                         <color key="tintColor" name="VermelhoCoracao"/>
                                         <state key="normal">
                                             <imageReference key="image" image="heart.fill" catalog="system" symbolScale="large"/>
@@ -55,13 +61,49 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="85" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U2a-UF-Os2">
+                                <rect key="frame" x="26" y="398.66666666666669" width="362" height="208.66666666666669"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5r8-wK-scX">
+                                        <rect key="frame" x="0.0" y="0.0" width="362" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocolate Croissant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wE-BE-dze">
+                                                <rect key="frame" x="0.0" y="0.0" width="362" height="30"/>
+                                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E82-Ge-KGM">
+                                                <rect key="frame" x="0.0" y="30" width="362" height="30"/>
+                                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="22"/>
+                                                <color key="textColor" name="VerdeDinheiro"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbG-iO-YBy">
+                                        <rect key="frame" x="0.0" y="121.33333333333331" width="362" height="87.333333333333314"/>
+                                        <string key="text">Light, flakey, yet oh-so indulgent, each Croissant features our 100 percent butter croissant dough wrapped around two chocolate batons — because one is simply not enough.</string>
+                                        <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="16"/>
+                                        <color key="textColor" name="CinzaClaro"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5r8-wK-scX" firstAttribute="leading" secondItem="U2a-UF-Os2" secondAttribute="leading" id="8XZ-Ya-Tga"/>
+                                    <constraint firstItem="5r8-wK-scX" firstAttribute="top" secondItem="U2a-UF-Os2" secondAttribute="top" id="SXI-Dj-Ing"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="K5H-gy-fNq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1wl-a6-SfU"/>
                             <constraint firstItem="0y9-Vy-LTs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="66G-xV-4n7"/>
+                            <constraint firstAttribute="trailing" secondItem="U2a-UF-Os2" secondAttribute="trailing" constant="26" id="I34-4d-cPa"/>
                             <constraint firstItem="0y9-Vy-LTs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jwe-6c-JxM"/>
+                            <constraint firstItem="U2a-UF-Os2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="Yit-aI-ipT"/>
+                            <constraint firstItem="U2a-UF-Os2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="55" id="hYw-Bk-JWs"/>
                             <constraint firstItem="K5H-gy-fNq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ogD-XY-iQ7"/>
                             <constraint firstItem="K5H-gy-fNq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" multiplier="1/2" id="vbd-Wr-j2n"/>
                         </constraints>
@@ -69,13 +111,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.19999999999999" y="121.88905547226388"/>
+            <point key="canvasLocation" x="135.19999999999999" y="121.18226600985223"/>
         </scene>
     </scenes>
     <resources>
         <image name="Croissant" width="750" height="751"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="CinzaClaro">
+            <color red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="VerdeDinheiro">
+            <color red="0.050980392156862744" green="0.62352941176470589" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="VermelhoCoracao">
             <color red="0.91764705882352937" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
