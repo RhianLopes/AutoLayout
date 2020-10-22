@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,30 +14,67 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutSecondLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PizzaFundo" translatesAutoresizingMaskIntoConstraints="NO" id="2xJ-Xe-Li5">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="120" translatesAutoresizingMaskIntoConstraints="NO" id="hrL-mP-c3l">
+                                <rect key="frame" x="30" y="54" width="315" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nm-6h-bgh">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="XWA-Fy-BvL"/>
+                                            <constraint firstAttribute="height" constant="40" id="nWy-3H-SY6"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="xmark" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-9l-kGR">
+                                        <rect key="frame" x="275" y="0.0" width="40" height="40"/>
+                                        <color key="backgroundColor" name="Vermelho"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="2LD-Ki-SJH"/>
+                                            <constraint firstAttribute="width" constant="40" id="iBk-UK-YnK"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="cart.fill" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="hrL-mP-c3l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="2hZ-t2-Ypx"/>
                             <constraint firstItem="2xJ-Xe-Li5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QxH-7d-gpM"/>
                             <constraint firstItem="2xJ-Xe-Li5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xy1-aJ-nXN"/>
+                            <constraint firstItem="hrL-mP-c3l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="b3P-X0-8yF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hrL-mP-c3l" secondAttribute="trailing" constant="30" id="imX-66-akm"/>
                             <constraint firstItem="2xJ-Xe-Li5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1/2" id="pUd-wi-ueS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2xJ-Xe-Li5" secondAttribute="trailing" id="rKm-YE-rkI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="botaoCarrinho" destination="X5I-9l-kGR" id="bcU-om-dMC"/>
+                        <outlet property="botaoFechar" destination="0Nm-6h-bgh" id="NMj-Zk-UwR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="100"/>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
         </scene>
     </scenes>
     <resources>
         <image name="PizzaFundo" width="375" height="438"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="Vermelho">
+            <color red="0.97254901960784312" green="0.14509803921568626" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
