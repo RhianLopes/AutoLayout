@@ -47,7 +47,7 @@
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Croissant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFm-SC-Qj8">
-                                        <rect key="frame" x="113.33333333333334" y="0.0" width="83.333333333333343" height="28.666666666666668"/>
+                                        <rect key="frame" x="114.66666666666666" y="0.0" width="80.666666666666657" height="28.666666666666668"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -64,16 +64,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bKk-oy-FgS">
-                                <rect key="frame" x="30" y="331" width="176.66666666666666" height="52"/>
+                                <rect key="frame" x="30" y="331" width="173" height="44.666666666666686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocolate Croissant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghl-nf-UPP">
-                                        <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="26"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="173" height="22.333333333333332"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$8.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKo-tF-Zdh">
-                                        <rect key="frame" x="0.0" y="26" width="176.66666666666666" height="26"/>
+                                        <rect key="frame" x="0.0" y="22.333333333333314" width="173" height="22.333333333333329"/>
                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="19"/>
                                         <color key="textColor" name="VerdeDinheiro"/>
                                         <nil key="highlightedColor"/>
