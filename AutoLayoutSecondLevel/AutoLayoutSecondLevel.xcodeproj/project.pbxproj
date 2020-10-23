@@ -15,6 +15,7 @@
 		F1466A6A2541034E0063C2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1466A682541034E0063C2D5 /* LaunchScreen.storyboard */; };
 		F1466A752541034E0063C2D5 /* AutoLayoutSecondLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1466A742541034E0063C2D5 /* AutoLayoutSecondLevelTests.swift */; };
 		F1466A802541034E0063C2D5 /* AutoLayoutSecondLevelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1466A7F2541034E0063C2D5 /* AutoLayoutSecondLevelUITests.swift */; };
+		F17B2A7925425FA5001A8A9A /* UIView+ArredondarBordas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17B2A7825425FA5001A8A9A /* UIView+ArredondarBordas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,17 @@
 		F1466A7B2541034E0063C2D5 /* AutoLayoutSecondLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutSecondLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1466A7F2541034E0063C2D5 /* AutoLayoutSecondLevelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSecondLevelUITests.swift; sourceTree = "<group>"; };
 		F1466A812541034E0063C2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1756C0025425B9100288CAB /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F1756C0125425B9100288CAB /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		F1756C0225425B9100288CAB /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		F1756C0325425B9100288CAB /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		F1756C0425425B9100288CAB /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		F1756C0525425B9100288CAB /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		F1756C0625425B9100288CAB /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F1756C0725425B9100288CAB /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		F1756C0825425B9100288CAB /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F1756C0925425B9100288CAB /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F17B2A7825425FA5001A8A9A /* UIView+ArredondarBordas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ArredondarBordas.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,8 @@
 		F1466A5C2541034C0063C2D5 /* AutoLayoutSecondLevel */ = {
 			isa = PBXGroup;
 			children = (
+				F17B2A7725425F83001A8A9A /* Extensoes */,
+				F1756BF4254259F600288CAB /* Recursos */,
 				F1466A5D2541034C0063C2D5 /* AppDelegate.swift */,
 				F1466A5F2541034C0063C2D5 /* SceneDelegate.swift */,
 				F1466A612541034C0063C2D5 /* ViewController.swift */,
@@ -126,6 +140,39 @@
 				F1466A812541034E0063C2D5 /* Info.plist */,
 			);
 			path = AutoLayoutSecondLevelUITests;
+			sourceTree = "<group>";
+		};
+		F1756BF4254259F600288CAB /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				F1756BF5254259FE00288CAB /* Fontes */,
+			);
+			path = Recursos;
+			sourceTree = "<group>";
+		};
+		F1756BF5254259FE00288CAB /* Fontes */ = {
+			isa = PBXGroup;
+			children = (
+				F1756C0125425B9100288CAB /* OpenSans-Bold.ttf */,
+				F1756C0625425B9100288CAB /* OpenSans-BoldItalic.ttf */,
+				F1756C0025425B9100288CAB /* OpenSans-ExtraBold.ttf */,
+				F1756C0825425B9100288CAB /* OpenSans-ExtraBoldItalic.ttf */,
+				F1756C0325425B9100288CAB /* OpenSans-Italic.ttf */,
+				F1756C0225425B9100288CAB /* OpenSans-Light.ttf */,
+				F1756C0425425B9100288CAB /* OpenSans-LightItalic.ttf */,
+				F1756C0725425B9100288CAB /* OpenSans-Regular.ttf */,
+				F1756C0525425B9100288CAB /* OpenSans-SemiBold.ttf */,
+				F1756C0925425B9100288CAB /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fontes;
+			sourceTree = "<group>";
+		};
+		F17B2A7725425F83001A8A9A /* Extensoes */ = {
+			isa = PBXGroup;
+			children = (
+				F17B2A7825425FA5001A8A9A /* UIView+ArredondarBordas.swift */,
+			);
+			name = Extensoes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1466A622541034C0063C2D5 /* ViewController.swift in Sources */,
+				F17B2A7925425FA5001A8A9A /* UIView+ArredondarBordas.swift in Sources */,
 				F1466A5E2541034C0063C2D5 /* AppDelegate.swift in Sources */,
 				F1466A602541034C0063C2D5 /* SceneDelegate.swift in Sources */,
 			);
