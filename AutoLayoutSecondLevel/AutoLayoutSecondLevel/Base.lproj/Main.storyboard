@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17140" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17115"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -53,7 +53,7 @@
                                                                         <rect key="frame" x="10" y="8" width="88" height="30"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tJ-Zd-jup">
-                                                                                <rect key="frame" x="11.666666666666671" y="0.0" width="65" height="19.333333333333332"/>
+                                                                                <rect key="frame" x="11.5" y="0.0" width="65" height="19.5"/>
                                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                                 <color key="textColor" name="CinzaClaro"/>
                                                                                 <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                                                         <rect key="frame" x="99" y="8" width="88" height="30"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qfm-V5-0di">
-                                                                                <rect key="frame" x="20.666666666666671" y="0.0" width="47" height="19.333333333333332"/>
+                                                                                <rect key="frame" x="20.5" y="0.0" width="47" height="19.5"/>
                                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                                 <color key="textColor" name="Vermelho"/>
                                                                                 <nil key="highlightedColor"/>
@@ -97,7 +97,7 @@
                                                                         <rect key="frame" x="188" y="8" width="88" height="30"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Course" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdb-rl-nY6">
-                                                                                <rect key="frame" x="1.6666666666666572" y="0.0" width="85" height="19.333333333333332"/>
+                                                                                <rect key="frame" x="1.5" y="0.0" width="85" height="19.5"/>
                                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                                 <color key="textColor" name="CinzaClaro"/>
                                                                                 <nil key="highlightedColor"/>
@@ -131,16 +131,16 @@
                                                                 <edgeInsets key="layoutMargins" top="8" left="10" bottom="10" right="10"/>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="lXr-sc-HJN">
-                                                                <rect key="frame" x="23.999999999999986" y="26" width="232.66666666666663" height="63"/>
+                                                                <rect key="frame" x="24" y="26" width="232.5" height="63"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cafe Baadal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abZ-ZB-G2T">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="166" height="39.666666666666664"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="166" height="39.5"/>
                                                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="29"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mountain View   ·  9AM to 9PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6t-fQ-7C9">
-                                                                        <rect key="frame" x="0.0" y="39.666666666666686" width="232.66666666666666" height="23.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="39.5" width="232.5" height="23.5"/>
                                                                         <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="17"/>
                                                                         <color key="textColor" name="CinzaClaro"/>
                                                                         <nil key="highlightedColor"/>
@@ -192,21 +192,21 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-PM-78V">
-                                                                <rect key="frame" x="7.9999999999999982" y="16" width="19.333333333333329" height="22"/>
+                                                                <rect key="frame" x="8" y="16" width="19.5" height="22"/>
                                                                 <color key="tintColor" name="Vermelho"/>
                                                                 <state key="normal" image="dot.square" catalog="system"/>
                                                             </button>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-AK-6v3">
-                                                                <rect key="frame" x="35.333333333333329" y="16" width="187.66666666666669" height="40"/>
+                                                                <rect key="frame" x="35.5" y="16" width="188" height="40"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheesy Chicken Meatballs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUb-zA-Scu">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="20.666666666666668"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="188" height="20.5"/>
                                                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izf-NU-RGm">
-                                                                        <rect key="frame" x="0.0" y="20.666666666666629" width="16" height="19.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="20.5" width="16" height="19.5"/>
                                                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                         <color key="textColor" name="CinzaClaro"/>
                                                                         <nil key="highlightedColor"/>
@@ -214,7 +214,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minced chicken rolled and cooked into soft delicious meatballs served with melted cheese makes for a good snack time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsf-1m-mLS">
-                                                                <rect key="frame" x="36" y="66.666666666666629" width="325" height="57.333333333333343"/>
+                                                                <rect key="frame" x="36" y="66.5" width="325" height="57.5"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                 <color key="textColor" name="CinzaClaro"/>
                                                                 <nil key="highlightedColor"/>
@@ -248,15 +248,15 @@
                                                         <rect key="frame" x="0.0" y="148" width="375" height="140"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSp-ND-gzf">
-                                                                <rect key="frame" x="7.9999999999999982" y="16" width="19.333333333333329" height="22"/>
+                                                                <rect key="frame" x="8" y="16" width="19.5" height="22"/>
                                                                 <color key="tintColor" name="VerdeClaro"/>
                                                                 <state key="normal" image="dot.square" catalog="system"/>
                                                             </button>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="t9a-ho-lQO">
-                                                                <rect key="frame" x="35.333333333333329" y="16" width="219.66666666666669" height="40"/>
+                                                                <rect key="frame" x="35.5" y="16" width="219.5" height="40"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzC-iO-4bi">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="219.66666666666666" height="20.666666666666668"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="219.5" height="20.5"/>
                                                                         <string key="text">Falafel Nuggets with Mayo Dip
 </string>
                                                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
@@ -264,7 +264,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgM-j4-lfs">
-                                                                        <rect key="frame" x="0.0" y="20.666666666666629" width="16" height="19.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="20.5" width="16" height="19.5"/>
                                                                         <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                         <color key="textColor" name="CinzaClaro"/>
                                                                         <nil key="highlightedColor"/>
@@ -272,7 +272,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minced chicken rolled and cooked into soft delicious meatballs served with melted cheese makes for a good snack time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MT-yB-i5D">
-                                                                <rect key="frame" x="34" y="62.666666666666629" width="325" height="57.333333333333343"/>
+                                                                <rect key="frame" x="34" y="62.5" width="325" height="57.5"/>
                                                                 <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
                                                                 <color key="textColor" name="CinzaClaro"/>
                                                                 <nil key="highlightedColor"/>
@@ -340,6 +340,7 @@
                                     <constraint firstItem="AUw-Fq-mCp" firstAttribute="top" secondItem="Vx4-6F-bLy" secondAttribute="top" id="I81-dF-ZxF"/>
                                     <constraint firstItem="AUw-Fq-mCp" firstAttribute="centerY" secondItem="Vx4-6F-bLy" secondAttribute="centerY" id="MOK-RQ-Wbp"/>
                                     <constraint firstAttribute="trailing" secondItem="AUw-Fq-mCp" secondAttribute="trailing" id="bZN-SI-uUP"/>
+                                    <constraint firstItem="AUw-Fq-mCp" firstAttribute="width" secondItem="Vx4-6F-bLy" secondAttribute="width" id="bbK-pz-XcH"/>
                                     <constraint firstAttribute="bottom" secondItem="AUw-Fq-mCp" secondAttribute="bottom" id="cyo-IT-jO4"/>
                                     <constraint firstItem="AUw-Fq-mCp" firstAttribute="centerX" secondItem="Vx4-6F-bLy" secondAttribute="centerX" id="zNv-vh-Qt5"/>
                                 </constraints>
@@ -384,6 +385,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hrL-mP-c3l" secondAttribute="trailing" constant="30" id="s7t-6U-g0h"/>
                         </constraints>
                     </view>
+                    <size key="freeformSize" width="375" height="812"/>
                     <connections>
                         <outlet property="avaliacaoView" destination="TUN-lV-WGh" id="XKi-gl-CEW"/>
                         <outlet property="botaoCarrinho" destination="X5I-9l-kGR" id="bcU-om-dMC"/>
@@ -408,7 +410,7 @@
             <color red="0.44299998879432678" green="0.46299999952316284" blue="0.4779999852180481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="FundoCinza">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.89800000190734863" green="0.89800000190734863" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="VerdeClaro">
             <color red="0.29800000786781311" green="0.68599998950958252" blue="0.31400001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
