@@ -185,7 +185,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="sh8-Y5-PoT" secondAttribute="trailing" id="yFX-8T-SCl"/>
                                                 </constraints>
                                             </view>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OTN-Vg-FRf">
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OTN-Vg-FRf">
                                                 <rect key="frame" x="0.0" y="524" width="375" height="288"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlr-Hl-BIO">
