@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var menuApresentacaoView: UIView!
     @IBOutlet weak var avaliacaoView: UIButton!
     @IBOutlet weak var primeiroAdicionarButton: UIButton!
+    @IBOutlet weak var segundoAdicionarView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,8 @@ class ViewController: UIViewController {
             primeiroAdicionarButton.frame.height / 2
         self.primeiroAdicionarButton.layer.borderWidth = 1
         self.primeiroAdicionarButton.layer.borderColor = UIColor(named: "VerdeClaro")?.cgColor
+        self.segundoAdicionarView.layer.cornerRadius =
+            segundoAdicionarView.frame.height / 2
     }
 
 
