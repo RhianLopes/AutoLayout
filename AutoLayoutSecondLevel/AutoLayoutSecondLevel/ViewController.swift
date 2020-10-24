@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var botaoCarrinho: UIButton!
     @IBOutlet weak var menuApresentacaoView: UIView!
     @IBOutlet weak var avaliacaoView: UIButton!
+    @IBOutlet weak var primeiroAdicionarButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +22,10 @@ class ViewController: UIViewController {
         self.botaoCarrinho.layer.cornerRadius = botaoCarrinho.frame.width / 2
         self.menuApresentacaoView.roundCorners(corners: [.topLeft, .topRight], radius: 50.0)
         self.avaliacaoView.layer.cornerRadius = avaliacaoView.frame.height / 2
+        self.primeiroAdicionarButton.layer.cornerRadius =
+            primeiroAdicionarButton.frame.height / 2
+        self.primeiroAdicionarButton.layer.borderWidth = 1
+        self.primeiroAdicionarButton.layer.borderColor = UIColor(named: "VerdeClaro")?.cgColor
     }
 
 

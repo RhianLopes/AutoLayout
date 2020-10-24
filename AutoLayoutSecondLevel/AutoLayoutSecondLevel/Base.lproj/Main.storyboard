@@ -190,16 +190,102 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlr-Hl-BIO">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb8-PM-78V">
+                                                                <rect key="frame" x="7.9999999999999982" y="16" width="19.333333333333329" height="22"/>
+                                                                <color key="tintColor" name="Vermelho"/>
+                                                                <state key="normal" image="dot.square" catalog="system"/>
+                                                            </button>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-AK-6v3">
+                                                                <rect key="frame" x="35.333333333333329" y="16" width="187.66666666666669" height="40"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheesy Chicken Meatballs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUb-zA-Scu">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="20.666666666666668"/>
+                                                                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izf-NU-RGm">
+                                                                        <rect key="frame" x="0.0" y="20.666666666666629" width="16" height="19.333333333333329"/>
+                                                                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                                                                        <color key="textColor" name="CinzaClaro"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minced chicken rolled and cooked into soft delicious meatballs served with melted cheese makes for a good snack time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsf-1m-mLS">
+                                                                <rect key="frame" x="36" y="66.666666666666629" width="325" height="57.333333333333343"/>
+                                                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                                                                <color key="textColor" name="CinzaClaro"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYp-Ps-5HJ">
+                                                                <rect key="frame" x="295" y="16" width="60" height="29"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="60" id="XEA-AY-uBe"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="12"/>
+                                                                <state key="normal" title="ADD">
+                                                                    <color key="titleColor" name="VerdeClaro"/>
+                                                                </state>
+                                                            </button>
+                                                        </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
+                                                            <constraint firstItem="Tsf-1m-mLS" firstAttribute="leading" secondItem="qlr-Hl-BIO" secondAttribute="leading" constant="36" id="97g-yg-4Ai"/>
+                                                            <constraint firstItem="UJd-AK-6v3" firstAttribute="leading" secondItem="bb8-PM-78V" secondAttribute="trailing" constant="8" id="DDz-U5-Uyp"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Tsf-1m-mLS" secondAttribute="bottom" constant="16" id="G6c-KJ-CM3"/>
+                                                            <constraint firstItem="PYp-Ps-5HJ" firstAttribute="top" secondItem="qlr-Hl-BIO" secondAttribute="top" constant="16" id="JQN-Mo-mPl"/>
+                                                            <constraint firstItem="bb8-PM-78V" firstAttribute="top" secondItem="qlr-Hl-BIO" secondAttribute="top" constant="16" id="Lp8-rm-2Jp"/>
                                                             <constraint firstAttribute="height" constant="140" id="gUX-7O-3GZ"/>
+                                                            <constraint firstAttribute="trailing" secondItem="Tsf-1m-mLS" secondAttribute="trailing" constant="14" id="ggG-JK-fI1"/>
+                                                            <constraint firstItem="UJd-AK-6v3" firstAttribute="top" secondItem="qlr-Hl-BIO" secondAttribute="top" constant="16" id="o26-sf-Hzq"/>
+                                                            <constraint firstAttribute="trailing" secondItem="PYp-Ps-5HJ" secondAttribute="trailing" constant="20" id="qfi-Ao-wNb"/>
+                                                            <constraint firstItem="bb8-PM-78V" firstAttribute="leading" secondItem="qlr-Hl-BIO" secondAttribute="leading" constant="8" id="uxK-aX-YI3"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GLJ-fl-sUG">
                                                         <rect key="frame" x="0.0" y="148" width="375" height="140"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSp-ND-gzf">
+                                                                <rect key="frame" x="7.9999999999999982" y="16" width="19.333333333333329" height="22"/>
+                                                                <color key="tintColor" name="VerdeClaro"/>
+                                                                <state key="normal" image="dot.square" catalog="system"/>
+                                                            </button>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="t9a-ho-lQO">
+                                                                <rect key="frame" x="34.999999999999986" y="16" width="219.66666666666666" height="40"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UzC-iO-4bi">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="219.66666666666666" height="20.666666666666668"/>
+                                                                        <string key="text">Falafel Nuggets with Mayo Dip
+</string>
+                                                                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="15"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgM-j4-lfs">
+                                                                        <rect key="frame" x="0.0" y="20.666666666666629" width="16" height="19.333333333333329"/>
+                                                                        <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                                                                        <color key="textColor" name="CinzaClaro"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minced chicken rolled and cooked into soft delicious meatballs served with melted cheese makes for a good snack time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MT-yB-i5D">
+                                                                <rect key="frame" x="34" y="66.666666666666629" width="325" height="57.333333333333343"/>
+                                                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="14"/>
+                                                                <color key="textColor" name="CinzaClaro"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
+                                                            <constraint firstItem="3MT-yB-i5D" firstAttribute="leading" secondItem="GLJ-fl-sUG" secondAttribute="leading" constant="34" id="3XE-b8-EQM"/>
+                                                            <constraint firstAttribute="trailing" secondItem="3MT-yB-i5D" secondAttribute="trailing" constant="16" id="9wt-dH-1Sq"/>
                                                             <constraint firstAttribute="height" constant="140" id="R5T-rW-CA5"/>
+                                                            <constraint firstItem="RSp-ND-gzf" firstAttribute="leading" secondItem="GLJ-fl-sUG" secondAttribute="leading" constant="8" id="Rxz-ol-yFs"/>
+                                                            <constraint firstAttribute="bottom" secondItem="3MT-yB-i5D" secondAttribute="bottom" constant="16" id="a6H-RX-4gc"/>
+                                                            <constraint firstItem="RSp-ND-gzf" firstAttribute="top" secondItem="GLJ-fl-sUG" secondAttribute="top" constant="16" id="mQG-dg-ivZ"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
@@ -267,6 +353,7 @@
                         <outlet property="botaoCarrinho" destination="X5I-9l-kGR" id="bcU-om-dMC"/>
                         <outlet property="botaoFechar" destination="0Nm-6h-bgh" id="NMj-Zk-UwR"/>
                         <outlet property="menuApresentacaoView" destination="sh8-Y5-PoT" id="RkO-pe-ePc"/>
+                        <outlet property="primeiroAdicionarButton" destination="PYp-Ps-5HJ" id="YqM-l5-ywr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -277,6 +364,7 @@
     <resources>
         <image name="PizzaFundo" width="375" height="438"/>
         <image name="cart.fill" catalog="system" width="128" height="102"/>
+        <image name="dot.square" catalog="system" width="128" height="114"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="CinzaClaro">
